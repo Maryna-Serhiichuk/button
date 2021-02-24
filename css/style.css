@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherist;
+}
+
+input:-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 90px;
+  border-radius: 13px;
+  box-shadow: 1px 1px 6px black, 0px 0px 0px 10px #cbcbcb, 0px 0px 0px 13px white, 0px 0px 0px 16px #666666;
+  background: linear-gradient(to bottom, rgba(120, 120, 120, 0) 0%, rgba(180, 180, 180, 0.02) 1%, rgba(180, 180, 180, 0.7) 45%, #b4b4b4 54%, #b4b4b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00787878", endColorstr="#b4b4b4",GradientType=0 );
+}
+button:active {
+  background: linear-gradient(to bottom, #b4b4b4 0%, #b4b4b4 46%, rgba(180, 180, 180, 0.7) 55%, rgba(180, 180, 180, 0.02) 99%, rgba(120, 120, 120, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#b4b4b4", endColorstr="#00787878",GradientType=0 );
+  box-shadow: inset 1px 1px 6px black, 0px 0px 0px 10px #cbcbcb, 0px 0px 0px 13px white, 0px 0px 0px 16px #666666;
+}
+
+dl {
+  color: #888888;
+  font-size: 45px;
+  margin-top: -7px;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #555555;
+  margin: 0px 15px;
+}
